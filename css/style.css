@@ -1,0 +1,285 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background{
+	 height:100vh;
+	 background: linear-gradient(
+	 rgba(0, 0, 0, 0.7),
+	 rgba(0, 0, 0, 0.7)
+	 ), url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-14.jpg") center center fixed no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	 
+}
+.title
+{
+	 text-align:center;
+	 color: white;
+	 padding-top: calc( 40vh - 25px );
+	
+}
+	.title h2
+	{
+		font-size:60px;
+		font-family:"Franklin Gothic Book";
+	}
+	.title h3
+	{
+		font-size:40px;
+		 font-family:"Franklin Gothic Book";
+	}
+	button{
+		width:330px;
+		background-color:black;
+		 text-align: center;
+		 font-color:black;	
+		 border-radius: ; 
+	}
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color:white;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+   
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.B{
+    padding:60px 10px 20px 10px;
+}
+p{
+    width:60%;
+    font-size:20px;
+    text-align:center;
+    padding: 0px 20px 0px 20px;
+    font-family:'Arial';
+}
+img{
+    width:35%;
+    height:255px;
+}
+hr{
+    width:40%;
+}
+ .about{
+    width:60%;
+    height:250px;
+}
+.icon{
+    width:10%;
+    height:120px;
+}
+.skill{
+    font-size:60px;
+}
+
+
+.row {
+    border-radius: 5px;
+    background-color: ;
+    padding: 5px 50px 5px 50px; ;
+    width:40%;
+    height:10%;
+    text-align:left;
+
+}
+
+.B{
+    padding:60px 10px 20px 10px;
+}
+.B2{
+    padding:60px 10px 20px 10px;
+}
+
+.tele{
+    width: 95%;
+    padding: 0px 30px 0px 30px;
+    height:450px;
+}
+.space
+{
+  height:30px;
+}
+.p2{
+    font-size:25px;
+    text-align:center;
+    width:55%;
+}
+
+.container img{
+    width:6%;
+    height:70px;
+}
+p{
+    width:60%;
+    font-size:20px;
+    text-align:center;
+    padding: 0px 20px 0px 20px;
+    font-family:'Arial';
+}
+img{
+    width:35%;
+    height:255px;
+}
+hr{
+    width:40%;
+}
+ .about{
+    width:60%;
+    height:250px;
+}
+.icon{
+    width:10%;
+    height:120px;
+}
+.skill{
+    font-size:60px;
+}
+
+
+  
+@media only screen and (min-width:412px ) and (max-width:750px)
+{
+	.title h2
+	{
+		font-size:50px;
+	}
+	.title h3
+	{
+		font-size:40px;
+	}
+	.overlay {overflow-y: auto;
+	top:0px;}
+  	.overlay a {font-size: 40px;
+	  	color:white;
+	  	padding: 5px;
+	  }
+  	.overlay .closebtn 
+  	{
+    font-size: 60px;
+    top: 30px;
+    right: 35px;
+  	}
+  	.title
+	{
+	 text-align:center;
+	 color: white;
+	 padding-top: calc( 40vh - 25px );
+	}
+
+    .row {
+    border-radius: 5px;
+    background-color: ;
+    padding: 0px 30px 5px 30px;
+    width:80%;
+    text-align:left;
+    font-size:20px;
+    }
+    .tele{
+    width: 95%;
+    padding: 0px 10px 0px 10px;
+    height:200px;
+
+    }
+    .B{
+    padding:60px 10px 20px 10px;
+    }
+    .p2{
+    font-size:25px;
+    text-align:center;
+    width:90%;
+    }
+    .container img{
+    width:10%;
+    height:50px;
+    }
+    .B2{
+    padding:70px 10px 20px 10px;
+    text-align:center;
+    }
+    p{
+     width:82%;
+        font-size:25px;
+        text-align:center;
+        padding: 0px 20px 0px 20px;
+        font-family:'Arial';
+    }
+    img{
+    width:85%;
+    height:240px;
+    }
+    hr{
+    width:50%;
+    }
+    .about{
+        width:80%;
+    height:100px;
+    }
+    .icon{
+        width:20%;
+    height:100px;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Page</title>
+<link rel="stylesheet" href= "css/style.css">
+<script src="java/java.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content ">
+   <button type="button"><a href="Index.html">Home</a></button>
+    <button type="button"><a href="About.html">About</a></button>
+    <button type="button"><a href="Contact.html">Contact</a></button>
+  </div>
+</div>
+
+<!-- Top menu on small screens 
+class="w3-container w3-top w3-white w3-xlarge w3-padding-16"-->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16;" style="padding:8px 10px 4px 10px; font-size:33px;">BUKELWA MOERANE 
+ <span style="font-size:30px;cursor:pointer;float:right;" onclick="openNav() "style=" ">&#9776; </span>
+</header>
+
+<center>
+<div class="B">
+<h1 style="font-size:45px;">Contact us</h1><img class="tele" src="https://blog.hubspot.com/hubfs/best-contact-us-page-examples.jpeg?t=1516868176436"><h2 style="font-family:'Orbitron',sans-serif; font-size:30px;">GET IN TOUCH</h2><p class="p2">I am  currently taking on new work. However, if you have another inquiry or have a project you think I'd just die to do, You can call or WhatsApp me on (+27) 061 403 1378 or send me an email below:</p></div>
+<div class="container">
+<a href="https://www.facebook.com/bukelwa.moerane"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0fmcicCsQiMb-XRRxiCbDQ7i6mOBBiINxo1rf5vnuXrcRTYJc"></a>
+<a href="https://twitter.com/BukelwaMoerane"><img src="http://www.freeiconspng.com/uploads/twitter-icon--pretty-social-media-iconset--custom-icon-design-29.png"></a>
+<a href="https://www.instagram.com/bukelwamoerane/"><img src="http://mahmood.tv/wp-content/uploads/2016/05/CHBLjS-u6Le.png?189db0&189db0"></a>
+<a href="https://www.linkedin.com/in/bukelwa-moerane-05815654/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARsl6qQqf6JaqSiWC2IfbNumS-jw15wXqojt4zzMixmwC6IHx"></a>
+<p></p>
+</div>
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>    
+    <input id="submit_button" type="submit" value="Send email" />
+     <div class="space"></div>
+</form>
+</center>
+
+</body>
+</html>
+
